@@ -26,7 +26,7 @@ For low $T$ a ferromagnetic configuration is indeed observed, which slowly decay
 ## 
 The code is built with the `makefile` that is supplied. The binary works like 
 
-`./ising n_thrm n_measure, N_threads`
+`./ising n_thrm n_measure N_threads`
 
 Here `n_thrm` defines the number of sweeps in the thermalization stage, `n_measure` defines the number of sweeps in the measurement stage, and `N_threads` is the number of cores when ran in parallel. One sweep is defined as having attempted to flip every spin on the lattice once.
 
